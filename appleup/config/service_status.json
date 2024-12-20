@@ -1,0 +1,460 @@
+{
+  "drMessage": null,
+  "drpost": false,
+  "services": [
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "App Store"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/news-publisher/",
+      "serviceName": "Apple Account Card"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple Arcade"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple Books"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple Business Essentials"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple Business Manager"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple Card"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple Cash"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple Fitness+"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple ID"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple Messages for Business"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple Music"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple Music Classical"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple Music radio"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple Music Subscriptions"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple Online Store"
+    },
+    {
+      "events": [
+        {
+          "usersAffected": "Some users are affected",
+          "epochStartDate": 1709651940000,
+          "epochEndDate": null,
+          "messageId": "2000003345",
+          "statusType": "Outage",
+          "datePosted": "03/05/2024 08:08 PST",
+          "startDate": "03/05/2024 07:19 PST",
+          "endDate": "03/05/2024 07:19 PST",
+          "affectedServices": null,
+          "eventStatus": "resolved",
+          "message": "Users may be unable to complete storage upgrade payment transactions."
+        }
+      ],
+      "redirectUrl": "https://developer.apple.com/apple-pay/",
+      "serviceName": "Apple Pay & Wallet"
+    },
+    {
+      "events": [
+        {
+          "usersAffected": "Some users were affected",
+          "epochStartDate": 1709632800000,
+          "epochEndDate": 1709637300000,
+          "messageId": "2000003344",
+          "statusType": "Issue",
+          "datePosted": "03/05/2024 08:08 PST",
+          "startDate": "03/05/2024 02:00 PST",
+          "endDate": "",
+          "affectedServices": null,
+          "eventStatus": "resolved",
+          "message": "Due to planned maintenance, some Apple Pay Later functionality may be temporarily unavailable."
+        }
+      ],
+      "redirectUrl": null,
+      "serviceName": "Apple Pay Later"
+    },
+    {
+      "events": [
+        {
+          "usersAffected": "Some users are affected",
+          "epochStartDate": 1709651940000,
+          "epochEndDate": null,
+          "messageId": "2000003345",
+          "statusType": "Outage",
+          "datePosted": "03/05/2024 08:08 PST",
+          "startDate": "03/05/2024 07:19 PST",
+          "endDate": null,
+          "affectedServices": null,
+          "eventStatus": "resolved",
+          "message": "Users may be unable to complete storage upgrade payment transactions."
+        }
+      ],
+      "redirectUrl": null,
+      "serviceName": "Apple School Manager"
+    },
+    {
+      "events": [
+        {
+          "usersAffected": "Some users are affected",
+          "epochStartDate": 1709651940000,
+          "epochEndDate": null,
+          "messageId": "2000003345",
+          "statusType": "Outage",
+          "datePosted": "03/05/2024 08:08 PST",
+          "startDate": "03/05/2024 07:19 PST",
+          "endDate": null,
+          "affectedServices": null,
+          "eventStatus": "resolved",
+          "message": "Users may be unable to complete storage upgrade payment transactions."
+        }
+      ],
+      "redirectUrl": null,
+      "serviceName": "Apple TV Channels"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple TV+"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "AppleCare on Device"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "BusinessConnect"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Dictation"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "FaceTime"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Find My"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Game Center"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Global Service Exchange"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Health sharing with provider"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "HomeKit"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "HomeKit Secure Video"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iCloud Account & Sign In"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iCloud Backup"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iCloud Bookmarks & Tabs"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iCloud Calendar"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iCloud Contacts"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iCloud Drive"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iCloud Keychain"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iCloud Mail"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iCloud Notes"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iCloud Private Relay"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iCloud Reminders"
+    },
+    {
+      "events": [
+        {
+          "usersAffected": "Some users are affected",
+          "epochStartDate": 1709651940000,
+          "epochEndDate": null,
+          "messageId": "2000003345",
+          "statusType": "Issue",
+          "datePosted": "03/05/2024 08:08 PST",
+          "startDate": "03/05/2024 07:19 PST",
+          "endDate": null,
+          "affectedServices": null,
+          "eventStatus": "resolved",
+          "message": "Users may be unable to complete storage upgrade payment transactions."
+        }
+      ],
+      "redirectUrl": null,
+      "serviceName": "iCloud Storage Upgrades"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iCloud Web Apps (iCloud.com)"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iMessage"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iOS Device Activation"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iTunes Match"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iTunes Store"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iWork Collaboration"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "iWork for iCloud"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Mac App Store"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "macOS Software Update"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Mail Drop"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Maps Display"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Maps Routing & Navigation"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Maps Search"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Maps Traffic"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "MLS Season Pass"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "News"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Photos"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Podcasts"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Radio"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Schooltime"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Schoolwork"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Screen Time"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Sign in with Apple"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Siri"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Spotlight suggestions"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Stocks"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Subscription Purchase"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "visionOS App Store"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Volume Purchase Program"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Walkie-Talkie"
+    },
+    {
+      "events": [
+        {
+          "usersAffected": "Some users were affected",
+          "epochStartDate": 1709355600000,
+          "epochEndDate": 1709578800000,
+          "messageId": "1000003743",
+          "statusType": "Issue",
+          "datePosted": "03/05/2024 08:08 PST",
+          "startDate": "03/01/2024 21:00 PST",
+          "endDate": "03/04/2024 11:00 PST",
+          "affectedServices": null,
+          "eventStatus": "resolved",
+          "message": "Air quality was unavailable due to a data provider outage."
+        }
+      ],
+      "redirectUrl": null,
+      "serviceName": "Weather"
+    }
+  ]
+}

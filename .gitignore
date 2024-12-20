@@ -1,9 +1,6 @@
 #djs
 node_js
-token.json
-config.json
-owner.json
-database.json
+.env
 
 # Logs
 logs

@@ -1,0 +1,398 @@
+{
+  "drMessage": null,
+  "drpost": false,
+  "services": [
+    {
+      "events": [
+        {
+          "usersAffected": "All users will be affected",
+          "epochStartDate": 1710007200000,
+          "epochEndDate": 1710009000000,
+          "messageId": "1000003764",
+          "statusType": "Maintenance",
+          "datePosted": "03/07/2024 13:05 PST",
+          "startDate": "03/09/2024 10:00 PST",
+          "endDate": "03/09/2024 10:30 PST",
+          "affectedServices": [
+            "Account",
+            "Certificates, Identifiers & Profiles",
+            "Code-level Support",
+            "Contact Us",
+            "Program Enrollment and Renewals",
+            "Xcode Automatic Configuration",
+            "Xcode Cloud"
+          ],
+          "eventStatus": "completed",
+          "message": "Due to scheduled maintenance, some services will be unavailable."
+        }
+      ],
+      "redirectUrl": "https://developer.apple.com/account/",
+      "serviceName": "Account"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/notifications/",
+      "serviceName": "APNS"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/notifications/",
+      "serviceName": "APNS Sandbox"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/documentation/devicecheck",
+      "serviceName": "App Attest"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "App Store - In-App Purchases"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/documentation/appstorereceipts/verifyreceipt",
+      "serviceName": "App Store - Receipt Verification"
+    },
+    {
+      "events": [],
+      "redirectUrl": " https://developer.apple.com/documentation/storekit/in-app_purchase/testing_in-app_purchases_with_sandbox",
+      "serviceName": "App Store - Sandbox"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/documentation/appstoreserverapi",
+      "serviceName": "App Store - Server APIs"
+    },
+    {
+      "events": [],
+      "redirectUrl": " https://developer.apple.com/documentation/appstoreservernotifications",
+      "serviceName": "App Store - Server Notifications"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/app-store/app-updates/",
+      "serviceName": "App Store Automatic App Updates"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://appstoreconnect.apple.com ",
+      "serviceName": "App Store Connect"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://appstoreconnect.apple.com/analytics",
+      "serviceName": "App Store Connect - Analytics"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "App Store Connect - App Processing "
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "App Store Connect - App Upload"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/testflight/",
+      "serviceName": "App Store Connect - TestFlight"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/app-store-connect/api/",
+      "serviceName": "App Store Connect API"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://forums.developer.apple.com",
+      "serviceName": "Apple Developer Forums"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/maps/",
+      "serviceName": "Apple Maps API"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/musickit/",
+      "serviceName": "Apple Music API"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple Music for Artists"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple News API"
+    },
+    {
+      "events": [],
+      "redirectUrl": " https://applepaydemo.apple.com",
+      "serviceName": "Apple Pay Developer | Apple Pay Demo"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/apple-pay/",
+      "serviceName": "Apple Pay Production Instance"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/apple-pay/sandbox-testing/",
+      "serviceName": "Apple Pay Sandbox Instance"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Apple Podcasts Connect"
+    },
+    {
+      "events": [
+        {
+          "usersAffected": "All users will be affected",
+          "epochStartDate": 1710007200000,
+          "epochEndDate": 1710009000000,
+          "messageId": "1000003764",
+          "statusType": "Outage",
+          "datePosted": "03/07/2024 13:05 PST",
+          "startDate": "03/09/2024 10:00 PST",
+          "endDate": null,
+          "affectedServices": [
+            "Account",
+            "Certificates, Identifiers & Profiles",
+            "Code-level Support",
+            "Contact Us",
+            "Program Enrollment and Renewals",
+            "Xcode Automatic Configuration",
+            "Xcode Cloud"
+          ],
+          "eventStatus": "ongoing",
+          "message": "Due to scheduled maintenance, some services will be unavailable."
+        }
+      ],
+      "redirectUrl": "https://developer.apple.com/account/",
+      "serviceName": "Certificates, Identifiers & Profiles"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://icloud.developer.apple.com/dashboard",
+      "serviceName": "CloudKit Console"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/icloud/cloudkit/",
+      "serviceName": "CloudKit Database"
+    },
+    {
+      "events": [
+        {
+          "usersAffected": "All users will be affected",
+          "epochStartDate": 1710007200000,
+          "epochEndDate": 1710009000000,
+          "messageId": "1000003764",
+          "statusType": "Issue",
+          "datePosted": "03/07/2024 13:05 PST",
+          "startDate": "03/09/2024 10:00 PST",
+          "endDate": null,
+          "affectedServices": [
+            "Account",
+            "Certificates, Identifiers & Profiles",
+            "Code-level Support",
+            "Contact Us",
+            "Program Enrollment and Renewals",
+            "Xcode Automatic Configuration",
+            "Xcode Cloud"
+          ],
+          "eventStatus": "ongoing",
+          "message": "Due to scheduled maintenance, some services will be unavailable."
+        }
+      ],
+      "redirectUrl": "https://developer.apple.com/account/?view=support",
+      "serviceName": "Code-level Support"
+    },
+    {
+      "events": [
+        {
+          "usersAffected": "All users will be affected",
+          "epochStartDate": 1710007200000,
+          "epochEndDate": 1710009000000,
+          "messageId": "1000003764",
+          "statusType": "Performance",
+          "datePosted": "03/07/2024 13:05 PST",
+          "startDate": "03/09/2024 10:00 PST",
+          "endDate": null,
+          "affectedServices": [
+            "Account",
+            "Certificates, Identifiers & Profiles",
+            "Code-level Support",
+            "Contact Us",
+            "Program Enrollment and Renewals",
+            "Xcode Automatic Configuration",
+            "Xcode Cloud"
+          ],
+          "eventStatus": "resolved",
+          "message": "Service will be unavailable at this time."
+        }
+      ],
+      "redirectUrl": "https://developer.apple.com/contact/",
+      "serviceName": "Contact Us"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/reference",
+      "serviceName": "Developer Documentation"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Developer ID Notary Service"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Device Enrollment Program"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://bugreport.apple.com/",
+      "serviceName": "Feedback Assistant"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://maps.developer.apple.com",
+      "serviceName": "MapKit JS Dashboard"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "MFi Portal"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/news-publisher/",
+      "serviceName": "News Publisher"
+    },
+    {
+      "events": [
+        {
+          "usersAffected": "All users will be affected",
+          "epochStartDate": 1710007200000,
+          "epochEndDate": 1710009000000,
+          "messageId": "1000003764",
+          "statusType": "Maintenance",
+          "datePosted": "03/07/2024 13:05 PST",
+          "startDate": "03/09/2024 10:00 PST",
+          "endDate": "03/09/2024 10:30 PST",
+          "affectedServices": [
+            "Account",
+            "Certificates, Identifiers & Profiles",
+            "Code-level Support",
+            "Contact Us",
+            "Program Enrollment and Renewals",
+            "Xcode Automatic Configuration",
+            "Xcode Cloud"
+          ],
+          "eventStatus": "completed",
+          "message": "Due to scheduled maintenance, some services will be unavailable."
+        }
+      ],
+      "redirectUrl": "https://developer.apple.com/enroll/",
+      "serviceName": "Program Enrollment and Renewals"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "SKAdNetwork"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/download/",
+      "serviceName": "Software Downloads"
+    },
+    {
+      "events": [],
+      "redirectUrl": null,
+      "serviceName": "Tap to Pay on iPhone"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/videos/",
+      "serviceName": "Videos"
+    },
+    {
+      "events": [],
+      "redirectUrl": "https://developer.apple.com/weatherkit/",
+      "serviceName": "WeatherKit"
+    },
+    {
+      "events": [
+        {
+          "usersAffected": "All users will be affected",
+          "epochStartDate": 1710007200000,
+          "epochEndDate": 1710009000000,
+          "messageId": "1000003764",
+          "statusType": "Maintenance",
+          "datePosted": "03/07/2024 13:05 PST",
+          "startDate": "03/09/2024 10:00 PST",
+          "endDate": "03/09/2024 10:30 PST",
+          "affectedServices": [
+            "Account",
+            "Certificates, Identifiers & Profiles",
+            "Code-level Support",
+            "Contact Us",
+            "Program Enrollment and Renewals",
+            "Xcode Automatic Configuration",
+            "Xcode Cloud"
+          ],
+          "eventStatus": "completed",
+          "message": "Due to scheduled maintenance, some services will be unavailable."
+        }
+      ],
+      "redirectUrl": "https://developer.apple.com/xcode/",
+      "serviceName": "Xcode Automatic Configuration"
+    },
+    {
+      "events": [
+        {
+          "usersAffected": "Some users are affected",
+          "epochStartDate": 1710186000000,
+          "epochEndDate": null,
+          "messageId": "2000003360",
+          "statusType": "Outage",
+          "datePosted": "03/11/2024 14:01 PDT",
+          "startDate": "03/11/2024 12:40 PDT",
+          "endDate": null,
+          "affectedServices": null,
+          "eventStatus": "ongoing",
+          "message": "Users are experiencing a problem with this service. We are working to resolve this issue."
+        },
+        {
+          "usersAffected": "All users were affected",
+          "epochStartDate": 1710007200000,
+          "epochEndDate": 1710009000000,
+          "messageId": "1000003764",
+          "statusType": "Maintenance",
+          "datePosted": "03/11/2024 14:01 PDT",
+          "startDate": "03/09/2024 10:00 PST",
+          "endDate": "03/09/2024 10:30 PST",
+          "affectedServices": [
+            "Account",
+            "Certificates, Identifiers & Profiles",
+            "Code-level Support",
+            "Contact Us",
+            "Program Enrollment and Renewals",
+            "Xcode Automatic Configuration",
+            "Xcode Cloud"
+          ],
+          "eventStatus": "upcoming",
+          "message": "This service was unavailable, due to planned maintenance."
+        }
+      ],
+      "redirectUrl": "https://developer.apple.com/xcode-cloud/",
+      "serviceName": "Xcode Cloud"
+    }
+  ]
+}
