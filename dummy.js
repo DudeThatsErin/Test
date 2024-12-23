@@ -39,45 +39,59 @@ const path = require('path');
 // for all commands
 let data = [];
 function readFilesFromPath(pathString) {
-  const directoryEntries = fs.readdirSync(pathString, { withFileTypes: true });
+    const directoryEntries = fs.readdirSync(pathString, { withFileTypes: true });
 
-  return directoryEntries.reduce((filteredEntries, dirEnt) => {
-    if (dirEnt.isDirectory()) {
-      // If the entry is a directory, call this function again
-      // but now add the directory name to the path string.
-      filteredEntries.push(...readFilesFromPath(`${pathString}/${dirEnt.name}`))
-    } else if (dirEnt.isFile()) {
-      // Check if the entry is a file instead. And if so, check
-      // if the file name ends with `.js`.
-      if (dirEnt.name.endsWith('.js')) {
-        // Add the file to the command file array.
-        filteredEntries.push(`${pathString}/${dirEnt.name}`);
-      }
-    }
+    return directoryEntries.reduce((filteredEntries, dirEnt) => {
+        if (dirEnt.isDirectory()) {
+            if (filteredEntries.includes(`${pathString}/${dirEnt.name}`)) {
+                console.warn(`Skipping cycled directory: ${pathString}/${dirEnt.name}`);
+                return filteredEntries;
+            }
 
-    return filteredEntries;
-  }, []);
+            filteredEntries.push(`...readFilesFromPath(${pathString}/${dirEnt.name})`);
+        } else if (dirEnt.isFile() && dirEnt.name.endsWith('.js')) {
+            filteredEntries.push(`${pathString}/${dirEnt.name}`);
+        }
+
+        return filteredEntries;
+    }, []);
 }
-
 // create dummy slash commands
-console.log('|-----------------------------------|')
-console.log('    Loading Dummy Slash Commands...  ')
-console.log('|-----------------------------------|')
+console.log('|-----------------------------------|');
+console.log('    Loading Dummy Slash Commands...  ');
+console.log('|-----------------------------------|');
+
+// Define readFilesFromPath function
+function readFilesFromPath(directory) {
+    const directoryPath = path.resolve(__dirname, directory); // Resolve the full path
+    try {
+        return fs.readdirSync(directoryPath) // Read all files in the directory
+            .filter(file => file.endsWith('.js')) // Only include JavaScript files
+            .map(file => path.join(directoryPath, file)); // Get full paths to files
+    } catch (err) {
+        console.error(`Error reading files from directory: ${directoryPath}`, err);
+        return [];
+    }
+}
 
 const commandFilePaths4 = readFilesFromPath('./dummy/slashcommands');
 
 commandFilePaths4.forEach((filePath) => {
-  const cmd = require(filePath);
-  let object = {};
-  if (cmd.name) { object.name = cmd.name; }
-  if (cmd.description) { object.description = cmd.description; }
-  if (cmd.options) { object.options = cmd.options; }
+    try {
+        const cmd = require(filePath); // Dynamically import the command module
+        let object = {};
+        if (cmd.name) { object.name = cmd.name; }
+        if (cmd.description) { object.description = cmd.description; }
+        if (cmd.options) { object.options = cmd.options; }
 
-  data.push(object);
-  //client.dummyCommands.delete(cmd.name, cmd);
-  client.dummyCommands.set(cmd.name, cmd);
-  console.log(cmd.name + ' loaded successfully!');
+        data.push(object); // Push to data array
+        client.dummyCommands.set(cmd.name, cmd); // Add to client.dummyCommands
+        console.log(`${cmd.name} loaded successfully!`);
+    } catch (err) {
+        console.error(`Failed to load command from file: ${filePath}`, err);
+    }
 });
+
 
 // events
 console.log('|-----------------------------------|')
